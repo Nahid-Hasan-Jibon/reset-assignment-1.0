@@ -42,8 +42,13 @@ margin-top: 32px;
 
 }
 
-#hero-paragraph{
+.paragraph{
     color:rgba(13, 19, 33, 0.7);
+
+}
+
+#hero-paragraph{
+   
 
     text-align: center;
     font-size: 16px;
@@ -66,4 +71,37 @@ background: #0D1321;
 margin-top: 32px;
 margin-bottom: 45px;
 }
+
+#card-section{
+    padding: 80px 97px;
+}
+
+
+#web-development{
+    margin-top:100px;
+  background-color: rgba(13, 19, 33, 0.02);
+  
+  text-align: center;
+  margin: 148px;
+  
+
+    
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    background: linear-gradient( 90deg, #ffffff , rgba(13, 19, 33, 0.02) 100%);
+    
+   
+border: 2px solid; 
+}
+
+
+
+/* inspiration section */
+
+
+
 
