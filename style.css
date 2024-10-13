@@ -116,3 +116,57 @@ border: 2px solid;
 #iframe{
     border-radius: 24px;
    }
+
+
+
+   /* current target */
+   #current-cards-section{
+    text-align: center;
+   }
+
+   #current-target-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+   }
+   .current-target-card-1{
+    text-align: left;
+    border: 2px solid;
+    display: flex;
+width: 364px;
+padding: 40px;
+flex-direction: column;
+align-items: flex-start;
+gap: 32px;
+border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+
+  }
+   .current-target-card-2{
+    text-align: left;
+    border: 2px solid;
+    display: flex;
+width: 364px;
+padding: 40px;
+flex-direction: column;
+align-items: flex-start;
+gap: 32px;
+border-radius: 16px;
+background: rgba(0, 76, 232, 0.05);
+
+  }
+   .current-target-card-3{
+    text-align: left;
+    border: 2px solid;
+    display: flex;
+width: 364px;
+padding: 40px;
+flex-direction: column;
+align-items: flex-start;
+gap: 32px;
+border-radius: 16px;
+background: rgba(255, 223, 0, 0.05);
+
+  }
+   
