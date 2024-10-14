@@ -14,7 +14,7 @@
       <nav>
         <ul>
           <li>
-            <h2>Jibon Nahid</h2>
+            <a href="">Jibon Nahid</a>
           </li>
           <li>
             <button id="nav-btn">Download Resume</button>
@@ -36,7 +36,8 @@
             The Future of web development is very promising . <br />
             The scope of web development is growing day by day
           </p>
-          <button id="hero-btn">Contact with me</button>
+          <a href="#footer"><button id="hero-btn">  Contact with me</button></a>
+          
         </div>
       </section>
     </header>
@@ -44,73 +45,82 @@
     <main>
       <!-- web development section -->
       <section id="web-development">
-        <h1>Why Web Development??</h1>
-        <p class="paragraph">
-          The Future of web development is very promising . <br />
-          The scope of web development is growing day by day
-        </p>
-        <!-- card section under web development section -->
-        <section id="card-section">
-          <div class="card">
-            <div>
-                <h2>I will Do Coding and Change The World</h2>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting
-                  industry.
-                </p>
-                <button>Learn More</button>
-              </div>
-              <div>
-                <figure>
-                  <img src="assets/Layer_1.png" alt="" />
-                </figure>
-              </div>
+        <div id="web-development-inner-elements">
+          <div id="web-development-text">
+            <h1 class="section-heading" >Why Web Development??</h1>
+          <p class="paragraph">
+            The Future of web development is very promising . <br />
+            The scope of web development is growing day by day
+          </p>
           </div>
-          <div class="card">
-            <div>
-                <figure>
-                  <img src="assets/Group 3.png" alt="" />
-                </figure>
+          <!-- card section under web development section -->
+          <section id="card-section">
+            <div class="cards" id="card-1">
+              <div id="card-1-elements">
+                <div>
+                  <h2 class="card-heading">I will Do Coding and <br>Change The World</h2>
+                  <p class="paragraph">
+                    I will invent some technologies that change <br>the world. 
+                  </p>
+                  <a href=""><button class="learn-more-btn">Learn More</button></a>
+                </div>
+                  <div>
+                    <figure>
+                      <img src="assets/Layer_1.png" alt="" />
+                    </figure>
+                  </div>
               </div>
-              <div>
-                <h2>I will help People by creating Modern Web System</h2>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting
-                  industry.
-                </p>
-                <button>Learn More</button>
+            </div>
+            <div class="cards" id="card-2">
+              <div id="card-2-elements">
+                <div>
+                  <figure>
+                    <img src="assets/Group 3.png" alt="" />
+                  </figure>
+                </div>
+                <div>
+                  <h2 class="card-heading">I will help People by creating <br> Modern Web System</h2>
+                  <p class="paragraph">
+                    Creating modern web System can change <br>the world. 
+                  </p>
+                  <a href=""><button class="learn-more-btn">Learn More</button></a>
+                </div>
+                  
               </div>
-          </div>
+            </div>
 
-          <div class="card">
-            <div>
-                <h2>I will Do Coding and Change The World</h2>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting
-                  industry.
-                </p>
-                <button>Learn More</button>
+            <div class="cards" id="card-1">
+              <div id="card-1-elements">
+                <div>
+                  <h2 class="card-heading">I will Do Coding and <br>Change The World</h2>
+                  <p class="paragraph">
+                    I will invent some technologies that change <br>the world. 
+                  </p>
+                  <a href=""><button class="learn-more-btn">Learn More</button></a>
+                </div>
+                  <div>
+                    <figure>
+                      <img src="assets/Group 4.png" alt="" />
+                    </figure>
+                  </div>
               </div>
-              <div>
-                <figure>
-                  <img src="assets/Group 4.png" alt="" />
-                </figure>
-              </div>
-          </div>
-        </section>
+            </div>
+            
+          </section>
+        </div>
       </section>
 
 
 
       <!-- inspiration section -->
        <section id="video-section"> 
-        <div>
-            <h1>My Inspiration</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+        <div id=>
+            <h1 class="section-heading">My Inspiration</h1>
+            <p class="paragraph">Programming hero is always my inspiration to learn web development .    </p>
         </div>
         <!-- video div -->
          <div id="video-card">
-            <iframe id="iframe" width="1516" height="730"  src="https://www.youtube.com/embed/5O5e0nnVulY?si=q0tED8kZ39Hr1v-o" title="YouTube video player" frameborder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe id="iframe" width="95%" height="90%"  src="https://www.youtube.com/embed/5O5e0nnVulY?si=q0tED8kZ39Hr1v-o" title="YouTube video player" frameborder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
          </div>
        </section>
 
@@ -118,34 +128,36 @@
        <!-- Current Target section -->
         <section id="current-cards-section">
           <div>
-            <h1>My Current Target</h1>
-            <p>My Current Target is to learn HTML , CSS and JavaScript</p>
+            <h1 id="section-heading">My Current Target</h1>
+            <p class="paragraph">My Current Target is to learn HTML , CSS and JavaScript</p>
           </div>
           <!-- current target card -->
            <div id="current-target-cards">
             <div class="current-target-card-1">
-              <figure class="current-target-card-image-1" >
-                <img  src="assets/html.png" alt="">
-              </figure>
+              <div>
+                <figure class="current-target-card-image-1" >
+                  <img  src="assets/html.png" alt="">
+                </figure>
+              </div>
               <h1>HTML</h1>
-              <p>HTML means Hypertext markup Language</p>
-              <a href="">Learn More</a>
+              <p class="paragraph">HTML means Hypertext markup Language</p>
+              <a id="learn-more" href="">Learn More</a>
             </div>
             <div class="current-target-card-2">
               <figure class="current-target-card-image-2" >
                 <img  src="assets/css.png" alt="">
               </figure>
-              <h1>HTML</h1>
-              <p>HTML means Hypertext markup Language</p>
-              <a href="">Learn More</a>
+              <h1>CSS</h1>
+              <p class="paragraph">CSS is the language we use to style an HTML document</p>
+              <a id="learn-more" href="">Learn More</a>
             </div>
             <div class="current-target-card-3">
               <figure class="current-target-card-image-3" >
                 <img  src="assets/js.png" alt="">
               </figure>
-              <h1>HTML</h1>
-              <p>HTML means Hypertext markup Language</p>
-              <a href="">Learn More</a>
+              <h1>JavaScript</h1>
+              <p class="paragraph">JavaScript is a scripting or programming language . </p>
+              <a id="learn-more" href="">Learn More</a>
             </div>
            </div>
         </section>
@@ -159,7 +171,7 @@
 
             <input type="text" placeholder="suggest me any feedback for me" name="" id="input-field">
             
-            <button id="submit-btn"> Submit</button>
+            <a href=""><button id="submit-btn"> Submit</button></a>
 
           </div>
 
@@ -171,9 +183,9 @@
         <h1>An Open Commitment by Jibon Nahid</h1>
   
       </div>
-      <div>
-        <a href="https://www.facebook.com/" target="_blank"><img src="assets/facebook.png" alt="Facebook"></a>
-        <a href="https://github.com/" target="_blank"><img src="assets/github.png" alt="Github"></a>
+      <div id="social-media">
+        <a href="https://www.facebook.com/jibon.nahid.39" target="_blank"><img src="assets/facebook.png" alt="Facebook"></a>
+        <a href="https://github.com/Nahid-Hasan-Jibon" target="_blank"><img src="assets/github.png" alt="Github"></a>
         <a href="https://www.linkedin.com/" target="_blank"><img src="assets/linkedin-icon 1.png" alt="Linkedin"></a>
       </div>
 
